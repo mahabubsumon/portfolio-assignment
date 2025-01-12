@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <div class="content-wrapper">
+        <main>
+            <!-- Hero Section Start -->
+            <section id="home" class="hero">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I'm a web developer passionate about creating beautiful websites.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </section>
+
+            <!-- About Me Section -->
+            <section id="about" class="about-me">
+                <img src="./Images/Profile.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm a web developer with a passion for creating user-friendly and visually appealing websites. I love learning new technologies and solving complex problems.</p>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="./Images/Screenshot_1.jpg" alt="Project 1 Image" class="project-image">
+                        <h3>Project 1</h3>
+                        <p>A brief description of project 1.</p>
+                    </div>
+                    <div class="project">
+                        <img src="./Images/Screenshot_2.jpg" alt="Project 2 Image" class="project-image">
+                        <h3>Project 2</h3>
+                        <p>A brief description of project 2.</p>
+                    </div>
+                    <div class="project">
+                        <img src="./Images/Screenshot_1.jpg" alt="Project 3 Image" class="project-image">
+                        <h3>Project 3</h3>
+                        <p>A brief description of project 3.</p>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-me">
+                <div class="left">
+                    <h2>Contact Me</h2>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d896.5899255500215!2d89.06461431860632!3d24.123434934097478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fea065df986c5b%3A0xaf056ae94bd99b24!2sBus%20Terminal%20Jame%20Masjid!5e1!3m2!1sen!2sbd!4v1736601510995!5m2!1sen!2sbd"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
